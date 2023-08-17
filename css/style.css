@@ -722,7 +722,7 @@ letter-spacing: 0.02em;
 
 .team {
   background-color: var(--cloud-color);
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .team-list {
@@ -804,6 +804,9 @@ letter-spacing: 0.02em;
   }
 
 @media screen and (min-width: 1158px) {
+  .team {
+    padding: 120px 0;
+  }
   .team-item {
     width: calc((100% - 72px ) / 4);
   }
